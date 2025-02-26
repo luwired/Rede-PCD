@@ -99,7 +99,7 @@ Direitos para PCDs:
 Ajude a manter a Rede-PCD seguindo estes passos:
 
 1. Faça um _fork_, adicione informações e envie um _pull request_ para revisão.
-2. Para eventos, inclua datas, locais e tipo de conteúdo; para empregos, adicione nome do site e link.
+2. Para eventos, inclua datas, locais e tipo de conteúdo; para empregos, adicione nome do site e _link_.
 
 <p align="center">
   <a href="https://github.com/luwired/Rede-PCD/graphs/contributors"><img src="https://contributors-img.web.app/image?repo=luwired/Rede-PCD&max=100" alt="Lista de contribuidores" width="50px"/></a>
