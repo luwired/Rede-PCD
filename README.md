@@ -78,11 +78,75 @@ Use estes **Google Dorks** para encontrar empregos para PCDs no Google de forma 
 * Procura programas de inclusão para PCDs com foco em 2025.
 ```
 "programa inclusão" PCD site:*.br "2025"
-```    
+```
+
+* Busca vagas PCD no LinkedIn, excluindo páginas de login.
+
+```
+site:linkedin.com "PCD" "vaga de emprego" -inurl:(login)
+```
+
+* Busca vagas para autistas no LinkedIn com foco em tecnologia.
+```
+site:linkedin.com "autista" "emprego" "tecnologia" -inurl:(signup) ()
+```
 
 > **Dica extra**: Combine os Dorks com sua cidade (ex.: `"vagas PCD São Paulo"`) para resultados locais!
 
-> ⚠️ **Google Dorks** são comandos avançados de busca no Google que ajudam a encontrar informações específicas, como vagas de emprego para PCDs, de forma rápida e precisa. Usando termos e filtros especiais, você pode explorar sites relevantes e evitar resultados desnecessários.
+</br>
+</br>
+
+Use estes **LinkdeIn Dorks** para encontrar empregos para PCDs no LinkedIn de forma rápida e eficiente:
+
+</br>
+
+* Busca vagas de emprego no LinkedIn que mencionem "PCD" ou a expressão exata "pessoas com deficiência", ampliando a captura de oportunidades inclusivas.
+```
+"PCD" OR "pessoas com deficiência" vagas emprego
+```
+
+* Encontra resultados que contenham obrigatoriamente "inclusão" e "PCD", combinados com "emprego" ou "vaga", focando em oportunidades inclusivas específicas.
+```
+"inclusão" AND "PCD" AND (emprego OR vaga)
+```
+
+* Pesquisa vagas que incluam "autista", "TEA" ou "transtorno do espectro autista" junto com "emprego", visando oportunidades para pessoas no espectro autista.
+
+```
+"autista" OR "TEA" OR "transtorno do espectro autista" vagas emprego
+``` 
+
+* Localiza vagas que mencionem "neurodiversidade" e "autismo" obrigatoriamente, junto com "vaga" ou "emprego", destacando empregadores focados em diversidade neurológica.
+```
+"neurodiversidade" AND (vaga OR emprego) AND "autismo"
+```
+
+* Busca por "inclusão autista" ou "vagas para autistas", excluindo resultados com "freelance", para priorizar empregos fixos ou formais.
+```
+"inclusão autista" OR "vagas para autistas" -freelance
+```
+
+* Encontra vagas na área de tecnologia para PCD, exigindo "tecnologia" e excluindo opções "remoto", ideal para quem prefere trabalho presencial.
+```
+"PCD" AND "tecnologia" AND (vaga OR emprego) -"remoto"
+```
+
+* Pesquisa empregos que combinem "autista" com "programação" ou "TI", focando em oportunidades no setor de tecnologia para autistas.
+```
+"autista" AND "programação" OR "TI" emprego
+```
+
+* Localiza vagas para PCD especificamente em "São Paulo" ou "Rio de Janeiro", restringindo geograficamente os resultados.
+```
+"PCD" vagas emprego "São Paulo" OR "Rio de Janeiro"
+```
+
+* Busca vagas para autistas que incluam obrigatoriamente "home office" ou "remoto", priorizando trabalho à distância.
+```
+"autista" AND "vaga" AND "home office" OR "remoto"
+```
+
+> ⚠️ **LinkedIn Dorks** são comandos avançados de busca no LinkedIn que ajudam a encontrar informações específicas, como vagas de emprego para PCDs, de forma rápida e precisa.
 
 </br>
 
